@@ -1,0 +1,40 @@
+Tive muita dificuldade em  aprender Git e como eu não conseguia aprender resolvi utilizar o Git Desktop que é uma ferramenta muito fácil para quem está iniciando. Como iniciei a faculdade de ADS o ano passado achei que fazer um Bootcamp seria interessante e então resolvi iniciar.Fiz algumas aulas e gostei muito e quando entrei no Módulo de Git e Github achei que ficaria frustrada novamente, mas me surpreendi, mas fiz algumas anotações para reforçar o aprendizado.
+Segue abaixo as anotações:
+
+
+Guia básico de Git e Github
+
+
+O que é Git?
+O git é uma ferramenta essencial para os desenvolvedores, por isso cada vez mais ela tem se tornando um pré-requisito para qualquer vaga, pois é extremamente prático trabalhar com versionamento de arquivos.
+
+
+O que é Github?
+O Github é um serviço online de hospedagem de repositórios Git (como são chamados os projetos que utilizam Git). Com ele podemos manter todos nossos commits e ramos sincronizados entre os membros do time.
+Além de servir como hospedagem, o Github possui muitas integrações com serviços que auxiliam no deploy da aplicação através de integração contínua.
+
+
+Alguns comandos básicos de Git:
+
+Git init -> git init é um comando único que você usa durante a configuração inicial de um novo repositório. A execução desse comando cria um novo subdiretório . git no diretório de trabalho atual. Essa ação também vai criar uma ramificação principal.
+
+Git add * /  Git add .  -> Esse comando fará com que todos os arquivos fiquem prontos para o Github.
+
+Git commit -m -> A flag -m indica que vamos adicionar uma mensagem para aquele commit.
+
+Git status -> Com ele podemos verificar quais arquivos ainda não adicionamos no repositório local da máquina.
+
+Git add <nome_do_arquivo> -> Adicionar apenas algum arquivo específico.
+
+Git branch -M main -> Criar a branch main, que é a principal branch do repositório.
+
+Git remote add origin <link_para_o_seu_repositorio> -> adicionar um novo repositório remoto
+
+Git push -u origin main -> para enviar por push suas alterações locais para o repositório online.
+
+
+Vou deixar alguns links que me ajudaram:
+ 
+https://blog.cod3r.com.br/guia-basico-de-git-como-fazer-commit-no-github/
+
+https://git-scm.com/docs
